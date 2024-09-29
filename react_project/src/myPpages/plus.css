@@ -1,0 +1,146 @@
+.sin1 {
+  background-image: url('/public/background.jpg');
+  background-size: cover; /* מתאים את התמונה לגובה ורוחב האלמנט */
+  background-position: center; /* ממרכז את התמונה */
+  background-repeat: no-repeat; /* מונע חזרת התמונה */
+  padding: 50px; /* רווח פנימי (לפי הצורך) */
+  color: rgb(28, 210, 223); 
+
+  }
+
+
+/* styles.css */
+.animated-link {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  }
+  
+    
+  .myHover{
+    transition: transform 0.3s ease;
+
+  }
+
+  .myHover:hover{
+    transform: scale(1.2);
+  }
+  
+
+
+  /* sign up */
+
+  
+
+  .form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sharp-input {
+    padding: 0.75rem 1rem;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+}
+
+.sharp-input:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.floating-label {
+    position: absolute;
+    top: -18px;
+    left: 12px;
+    font-size: 0.9rem;
+    color: #6c757d;
+    transition: all 0.2s ease;
+}
+
+.animated-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.animated-group .sharp-input:focus + .floating-label,
+.animated-group .sharp-input:not(:placeholder-shown) + .floating-label {
+    top: -18px;
+    font-size: 0.85rem;
+    color: #007bff;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+}
+
+/* Overall container for the section */
+.about-section {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* The main content container */
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Titles */
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.about-title::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #ff6f61;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Paragraphs */
+.about-description {
+  font-size: 1.2rem;
+  color: #000000;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Styling for the container */
+.container {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+/* Animations for hover effects on titles */
+.about-title:hover {
+  color: #61b0ff;
+  transition: color 0.3s ease-in-out;
+}
+
